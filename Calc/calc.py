@@ -1,16 +1,17 @@
+import os
 # Functions
 def add(x,y):
     print(x + y)
-
+    os.system('pause')
 def subtract(x,y):
     print(x - y)
-
+    os.system('pause')
 def multiply(x,y):
     print(x * y)
-
+    os.system('pause')
 def divide(x, y):
     print(x/y)
-
+    os.system('pause')
 def printStuff(text):
     print(text)
 # Variables
