@@ -1,4 +1,4 @@
-from main import *
+from calc import *
 
 x = 4
 y = 9
