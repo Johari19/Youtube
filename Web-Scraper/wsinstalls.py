@@ -2,6 +2,7 @@ from subprocess import call, DEVNULL
 import subprocess
 import time
 import os
+from sys import platform
 if __name__ == "__main__":
     print("DO NOT RUN THIS SCRIPT! IT DOES NOTHING")
     time.sleep(10)
