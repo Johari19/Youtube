@@ -37,3 +37,9 @@ else:
 
     def log_error(e):
         print(e)
+       
+        
+    def pause():
+        programPause = input("Press the <ENTER> key to continue...")
+
+        
