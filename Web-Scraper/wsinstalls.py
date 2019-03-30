@@ -24,13 +24,13 @@ else:
             install("beautifulsoup4")
             time.sleep(2)
             print("Installed all modules!")
-            print("Importing modules")
+            print("Importing modules...")
             from requests import get
             from requests.exceptions import RequestException
             from contextlib import closing
             from bs4 import BeautifulSoup
             import os
-            time.sleep(1)
+            time.sleep(2)
             print("Imported all modules!")
         else:
             print("Installation process failed!")
