@@ -23,4 +23,4 @@ for element in html.find_all(element, classes):
     print (element.get_text())
 
 
-os.system('pause')
+pause()
