@@ -1,4 +1,5 @@
-from wsinstalls import *
+from wsinstalls import installModule
+from wsfunc import *
 
 installModule()
 
