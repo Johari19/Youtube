@@ -19,8 +19,10 @@ else:
         if __name__ == "wsinstalls":
             print("Installing requests modules...")
             install('requests')
+            time.sleep(2)
             print("Installing beautifulsoup4 modules...")
             install("beautifulsoup4")
+            time.sleep(2)
             print("Installed all modules!")
             print("Importing modules")
             from requests import get
@@ -28,7 +30,7 @@ else:
             from contextlib import closing
             from bs4 import BeautifulSoup
             import os
-
+            time.sleep(1)
             print("Imported all modules!")
         else:
             print("Installation process failed!")
