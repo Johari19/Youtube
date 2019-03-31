@@ -7,6 +7,7 @@ print("\nBasic Web Scraper (BWS) by Johari19\n")
 print("\nYou need to have a basic understanding of html elements and classes to use this properly!\n")
 print("Script made by: https://github.com/Johari19\n")
 print("This script only uses elements and classes. Using ids and javascript will not work!\n")
+print("Some websites don't allow this script to work!\n"
 
 # Variables
 url = str(input("Enter url of the site you would like to scrape (USE: https://websitename.com): "))
@@ -24,4 +25,3 @@ for element in html.find_all(element, classes):
 
 
 pause()
-
