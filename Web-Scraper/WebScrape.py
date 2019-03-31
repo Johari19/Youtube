@@ -13,11 +13,11 @@ url = str(input("Enter url of the site you would like to scrape (USE: https://we
 element = str(input("\nEnter the element you would like to scrape: "))
 raw_html = get_URL(url)
 html = BeautifulSoup(raw_html, 'html.parser')
-classes = str(input("Enter element's class: "))
+classes = str(input("Enter the element's class: "))
 
 
 # Script
-print("I found:\n")
+print("\nI found:")
 for element in html.find_all(element, classes):
     print (element.get_text())
 
