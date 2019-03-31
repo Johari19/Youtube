@@ -1,7 +1,6 @@
-from wsinstalls import installModule
-from wsfunc import *
-
+from wsinstalls import *
 installModule()
+from wsfunc import *
 
 # Text
 print("\nBasic Web Scraper (BWS) by Johari19\n")
