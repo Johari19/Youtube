@@ -15,14 +15,14 @@ else:
         if __name__ == "wsinstalls":
             print("Installing requests modules...")
             install('requests')
-            time.sleep(1)
+            time.sleep(.1)
             print("Installing beautifulsoup4 modules...")
             install("beautifulsoup4")
-            time.sleep(1)
+            time.sleep(.1)
             print("Installed all modules!")
             print("Importing modules...")
 
-            time.sleep(1)
+            time.sleep(.1)
             print("Imported all modules!")
         else:
             print("Installation process failed!")
