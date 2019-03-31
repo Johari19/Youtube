@@ -10,9 +10,10 @@ print("This script only uses elements and classes. Using ids and javascript will
 
 # Variables
 url = str(input("Enter url of the site you would like to scrape (USE: https://websitename.com): "))
-element = str(input("\nEnter the element you would like to scrape: "))
 raw_html = get_URL(url)
 html = BeautifulSoup(raw_html, 'html.parser')
+element = str(input("\nEnter the element you would like to scrape: "))
+
 classes = str(input("Enter the element's class: "))
 
 
@@ -23,3 +24,4 @@ for element in html.find_all(element, classes):
 
 
 pause()
+
