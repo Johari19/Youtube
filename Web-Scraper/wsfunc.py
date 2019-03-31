@@ -2,10 +2,7 @@ from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
-from subprocess import call, DEVNULL
-import subprocess
-import time
-import os
+
 
 
 if __name__ == "__main__":
@@ -23,7 +20,7 @@ else:
                 else:
                     return None
 
-        except RequestException as e:
+        except requests.RequestException as e:
             log_error('Error during requests to {0} : {1}'.format(url, str(e)))
             return None
 
