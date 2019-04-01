@@ -37,14 +37,14 @@ time_took = (time.time() - start_time)
 if time_took >= 3600:
     time_took = (time_took)/60/60
     print("It took", time_took, "hours(s) to run")
-    print("Randomized text", round(count/time_took), " times per minute")
+    print("Randomized text", round(count/time_took), "times per hour")
     
-if time_took >= 60:
+elif time_took >= 60:
     time_took = (time_took)/60
     print("It took", time_took, "minute(s) to run")
     print("Randomized text", round(count/time_took), "times per minute")
     
 else:
     print("It took", (time_took), "second(s) to run")
-    print("Randomized text", round(count/time_took), " times per minute")
+    print("Randomized text", round(count/time_took), "times per second")
 pause()
