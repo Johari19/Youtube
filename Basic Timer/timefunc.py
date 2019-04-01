@@ -16,20 +16,11 @@ else:
 
 
 
-    def stopwatch():
+    def stopwatch(seconds):
         start = time.time()
         time.clock()
         elapsed = 0
-        while True:
+        while elapsed < seconds:
             elapsed = time.time() - start
             print ("Time elapsed: ", round(elapsed), end="\r")
             time.sleep(0.1)
-
-    def timerfunc(seconds):
-            start = time.time()
-            time.clock()
-            elapsed = seconds
-            while elapsed > 0:
-                elapsed = start - time.time()
-                print ("Time elapsed: ", round(elapsed), end="\r")
-                time.sleep(0.1)

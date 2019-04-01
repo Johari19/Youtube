@@ -17,7 +17,7 @@ def generate(textfile, chars):
     p = ''.join(secrets.SystemRandom().choice(string.printable) for _ in range(chars))
     p = re.sub(r"\s+", "", p, flags=re.UNICODE)
     a.write(p)
-    print("Randomize", "#" + str(count), "Successful")
+    print("Randomize", "#" + str(count + 1), "Successful")
     a.close()
 
 
