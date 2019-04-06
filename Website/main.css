@@ -1,0 +1,21 @@
+.NavBar{
+  display: block;
+}
+
+div.NavBar ul {
+  list-style-type: : none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#Home a{
+  background-color: #8426ef;
+  color: white;
+  padding: 10px;
+
+}
+
+li#Home {
+  width: 59px;
+}
